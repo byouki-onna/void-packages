@@ -11,7 +11,6 @@ maintainer="Obosob <obosob@riseup.net>"
 makedepends="zlib-devel boost-devel libressl-devel miniupnpc-devel"
 distfiles="https://github.com/PurpleI2P/i2pd/archive/${version}.tar.gz"
 checksum=4d7946e33a6a1dd4439590ea23b494f36e6fbcb81f7b36857bf264413a19e9db
-system_groups="_i2pd"
 system_accounts="_i2pd"
 
 case "${XBPS_TARGET_MACHINE}" in
